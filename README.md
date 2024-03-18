@@ -1,4 +1,12 @@
-# React + Vite
+# freeCodeCamp - Quote machine
+
+Challenge url: [Build a random quote machine](https://www.freecodecamp.org/learn/front-end-development-libraries/front-end-development-libraries-projects/build-a-random-quote-machine)
+
+## TODO
+- Write a version with ES6 style
+- API call instead of raw data
+
+## React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
