@@ -1,0 +1,48 @@
+body {
+  background-image: linear-gradient(#d8826f, rgb(81, 55, 98));
+}
+
+.card {
+  --bs-card-bg: rgb(234, 227, 251);
+  --bs-card-spacer-y: 2rem;
+  --bs-card-spacer-x: 1.5rem;
+
+  text-align: center;
+}
+
+#text {
+  font-size: 2.5rem;
+  line-height: 1.2;
+}
+
+#author {
+  font-style: italic;
+  text-align: right;
+  margin: 1rem 0;
+}
+
+#author::before {
+  content: "-";
+}
+
+#tweet-quote {
+  display: block;
+  width: 2em;
+  aspect-ratio: 1;
+}
+
+#tweet-quote:hover svg {
+  fill: rgb(81, 55, 98);
+}
+
+.btn-cta {
+  position: absolute;
+  left: 50%;
+  bottom: -1.5rem;
+  transform: translateX(-50%);
+}
+
+.btn-cta svg {
+  fill: #fff;
+  width: 2em;
+}
